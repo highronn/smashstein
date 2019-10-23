@@ -1,0 +1,46 @@
+\select@language {french}
+\contentsline {chapter}{1. Introduction}{4}{chapter*.2}
+\contentsline {chapter}{2. Conception}{5}{chapter*.3}
+\contentsline {section}{\numberline {2.1}Organisation de l'\IeC {\'e}quipe}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}\'Etablissement du planning}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Planning pr\IeC {\'e}visionnel}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Planning r\IeC {\'e}el}{7}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Organisation du travail}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Mise en place de quelques conventions}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Outil de travail collaboratif}{8}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Architecture logicielle}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Diagramme de classe - premi\IeC {\`e}re partie}{10}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Diagramme de classe - seconde partie}{11}{subsection.2.4.2}
+\contentsline {chapter}{3. R\IeC {\'e}alisation}{12}{chapter*.4}
+\contentsline {section}{\numberline {3.5}Graphismes et principes d'animation}{12}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Th\IeC {\'e}matique retenue et manifeste}{12}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Format 3D et contraintes pos\IeC {\'e}es sur la mod\IeC {\'e}lisation}{12}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Structure de l'animation}{13}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Texturage}{13}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Estimations et complexit\IeC {\'e}}{14}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Probl\IeC {\`e}mes li\IeC {\'e}s au rendu graphique et solutions apport\IeC {\'e}es}{15}{subsection.3.5.6}
+\contentsline {subsubsection}{Impl\IeC {\'e}mentation des normales}{15}{section*.5}
+\contentsline {section}{\numberline {3.6}Les loaders}{16}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Loader OBJ}{16}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Loader MD2}{17}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Probl\IeC {\`e}mes rencontr\IeC {\'e}s}{19}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}Physiques de l'ar\IeC {\`e}ne}{20}{section.3.7}
+\contentsline {section}{\numberline {3.8}Mouvements}{21}{section.3.8}
+\contentsline {section}{\numberline {3.9}Collisions}{21}{section.3.9}
+\contentsline {section}{\numberline {3.10}Les projectiles}{23}{section.3.10}
+\contentsline {section}{\numberline {3.11}Intelligence artificielle}{24}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Fonctionnement}{24}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Graphe de d\IeC {\'e}placement}{26}{subsection.3.11.2}
+\contentsline {subsection}{\numberline {3.11.3}D\IeC {\'e}placement d'un noeud \IeC {\`a} un autre}{26}{subsection.3.11.3}
+\contentsline {subsection}{\numberline {3.11.4}Am\IeC {\'e}lioration de l'IA}{28}{subsection.3.11.4}
+\contentsline {section}{\numberline {3.12}Gestion du son}{31}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Mise en place du son}{31}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Choix des sons}{31}{subsection.3.12.2}
+\contentsline {subsection}{\numberline {3.12.3}Am\IeC {\'e}liorations possibles}{32}{subsection.3.12.3}
+\contentsline {section}{\numberline {3.13}Principe du jeu}{33}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Guide utilisateur}{33}{subsection.3.13.1}
+\contentsline {chapter}{4. Conclusion}{34}{chapter*.6}
+\contentsline {chapter}{5. Bibliographie}{35}{chapter*.7}
+\contentsline {chapter}{6. Annexes}{36}{appendix*.8}
+\contentsline {section}{\numberline {A.1}Quelques captures d'\IeC {\'e}cran}{36}{section.A.1}
+\contentsline {section}{\numberline {A.2}Pseudo-code de l'IA}{37}{section.A.2}

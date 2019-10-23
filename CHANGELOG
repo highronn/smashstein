@@ -1,0 +1,23 @@
+SMASHTEIN GARBAGE - Arena
+date: 2010-01-18
+
+
+rev.317
+[new feature] Ending music when you won or lost
+[new feature] You can throw projectiles while you are in the air
+[known bug] When pressing on QUIT button, there is a bad segmentation fault
+[known bug] The characters in Arena and the heads of them in the bottom are not the same
+
+rev.314
+[new feature] Each character has 3 lives
+[fix] When a projectile is thrown, textures are still buggy but it is better
+
+
+rev.310
+
+[new feature] Each character has now 5 lives
+[new feature] Bandicoot's projectiles adopt a new trajectory
+
+[known bug] When a projectile is thrown, textures are buggy
+[known bug] During compilation, some warnings related to boost-graph may appear
+[knows bug] When a character is hit by a projectile, he is projected to right and only right

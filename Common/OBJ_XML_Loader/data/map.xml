@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<map>
+     <mesh path="obj/test.obj" x="-6" y="-2" z="-6" xrot="80" yrot="0" zrot="0" >MAP1</mesh>
+     <element path="obj/bouilloire.obj" x="-10" y="-6" z="0" xrot="0" yrot="0" zrot="0" >ELEMENT1</element>
+</map>

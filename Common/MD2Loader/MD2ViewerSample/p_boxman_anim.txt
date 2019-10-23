@@ -1,0 +1,28 @@
+#MD2 Anim p_boxman
+#Total : 350 frames
+#Decoupe moyenne : 5 frames per key
+#Estimation pour md2 : 70 * 2
+standby 1 30
+prerun 40 53
+run 54 77
+jump 80 110
+fall 110 116
+postjump 116 135
+attack1 140 175
+throw 180 210
+damage 215 230
+preblock 230 240
+block 240 260
+postblock 260 270
+predeath 300 315
+death 315 340
+
+victory
+attack2
+special
+postdeath
+standup
+rotate
+postrun
+crouch
+walk

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<mesures>
+     <mesure numero="1">
+            <tension>10</tension>
+            <frequence>1000</frequence>
+     </mesure>
+     <mesure numero="2">
+            <tension>20</tension>
+            <frequence>2000</frequence>
+     </mesure>
+</mesures>

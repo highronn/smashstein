@@ -1,0 +1,100 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}				% Définition du jeu de caractères
+\usepackage[francais]{babel}			% Mode français
+
+\usepackage{graphicx}					% Permet d'insérer des images
+\usepackage{geometry}					% Permet de redéfinir les marges
+\geometry{hmargin=2.5cm, vmargin=3cm}
+\usepackage{fancyhdr}					% Personnalisation des entetes et pied de page
+\usepackage{lscape}						% Permet de placer une page à la verticale (Paysage)
+\usepackage{hyperref}					% Rend les titres et liens cliquables
+\hypersetup{colorlinks,					% Met en noir tous les titres en noir et URL en bleu
+            citecolor=black,
+            filecolor=black,
+            linkcolor=black,
+            urlcolor=blue}
+
+
+\title
+{
+	\vspace{-4cm}
+	\begin{flushleft}
+		\includegraphics[height=2cm]{visuel/logo-upemlv.jpg}
+	\end{flushleft}
+	\vspace{-3cm}
+	\begin{flushright}
+		\includegraphics[height=4cm]{visuel/logo-imac.png}
+	\end{flushright}
+	\includegraphics[width=16cm]{visuel/logo-smashtein-garbage.jpg}
+	\sc{Rapport}
+}
+\date{\textit{14 janvier 2010}}
+\author
+{
+	Mathieu \sc{Taillandier} \\	
+	Rony \sc{Murat}	\\	
+	Jordan \sc{Valnet}	\\	
+	Maxime \sc{Binetruy} \\	
+	Sébastien \sc{Macher} \\	
+	Alexandre \sc{Huynh}
+}
+
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+
+\fancyhead[C]{\textsl{Rapport - Smashtein Garbage}}
+\fancyfoot[R]{\textbf{\thepage}}
+
+%% Redéfinition d'une commande pour les paragraphes
+\renewcommand{\paragraph}[1]{\begin{sloppypar}#1\end{sloppypar} \vspace{0.5cm}}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+\null
+
+\tableofcontents
+
+\newpage
+\chapter*{1. Introduction}
+\addcontentsline{toc}{chapter}{1. Introduction}
+\input{input/introduction}
+
+\newpage
+\chapter*{2. Conception}
+\addcontentsline{toc}{chapter}{2. Conception}
+\setcounter{chapter}{2}
+\input{input/conception}
+
+\newpage
+\chapter*{3. Réalisation}
+\addcontentsline{toc}{chapter}{3. Réalisation}
+\setcounter{chapter}{3}
+\input{input/realisation}
+
+\newpage
+\chapter*{4. Conclusion}
+\addcontentsline{toc}{chapter}{4. Conclusion}
+\input{input/conclusion}
+
+\newpage
+\input{input/bibliographie}
+\addcontentsline{toc}{chapter}{5. Bibliographie}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Annexe %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\appendix
+\chapter*{6. Annexes}
+\addcontentsline{toc}{chapter}{6. Annexes}
+\setcounter{chapter}{1}
+\input{input/annexes}
+
+
+\end{document}
