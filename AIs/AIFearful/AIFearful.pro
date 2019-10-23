@@ -14,8 +14,7 @@ DEPENDPATH +=   . \
 INCLUDEPATH +=  ../source/ \
 				../../openkn-smashstein/include/ \
 				../../Arena/include/ \
-				../../fmod/ \
-				/usr/local/include
+				../../fmod/
 
 #Where to build
 DESTDIR = ../bin/
