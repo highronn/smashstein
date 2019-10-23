@@ -21,9 +21,9 @@ class Projectiles{
 		kn::Vector3f vectDir;//vecteur direction
 		kn::Vector3f vectVit;//vecteur vitesse
 		Wrap boundingBox;//gestion des collisions
-		
+
 	public :
-	
+
 		Projectiles(void);
 		Projectiles(
 				RTPoint::point3 camera,
@@ -36,10 +36,10 @@ class Projectiles{
 		);
 		Projectiles(const Projectiles & project);
 		~Projectiles(void);
-		
+
 		//speficife en fonction du type de projectile, le placement du systeme de particules
 		void drawProjectiles(RTPoint::point3 camera,unsigned int idTexProjectile,unsigned int idTexSystemParticles);
-		//renvoie les id de tex pour les projectiles concernés(ex: boule de feu ; feu)
+		//renvoie les id de tex pour les projectiles concernï¿½s(ex: boule de feu ; feu)
 		static std::pair<unsigned int,unsigned int> loadTextureProjectile(void);//first = projectile ; second = particules
 
 };
