@@ -1,4 +1,4 @@
-#include <billboard.hpp>
+#include <BillBoard.hpp>
 
 #include <GL/gl.h>
 

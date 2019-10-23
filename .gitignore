@@ -1,0 +1,7 @@
+bin
+AUTOGEN
+**/.o/*
+*.so
+*.o
+Makefile
+
