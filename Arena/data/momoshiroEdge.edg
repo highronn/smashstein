@@ -1,0 +1,52 @@
+# Syntax for .edg files
+#
+# <nodeStartID> <nodeEndID> <edgeValue>
+
+#0 gauche 1
+#1 gauche 2
+#2 gauche 3
+#3 milieu 1
+#4 milieu 2
+#5 milieu 3
+#6 droite 1
+#7 droite 2
+#8 droite 3
+#9 droite 4
+
+#liaision sol(gauche 1)/sol(gauche 2)
+0 1 2
+1 0 2
+
+#liaison sol(gauche 2)/sol(gauche 3)
+1 2 2
+2 1 2
+
+#liaison sol(gauche 3)/sol(milieu 1)
+2 3 2
+3 2 2
+
+#liaison sol(milieu 1)/sol(milieu 2)
+3 4 2
+4 3 2
+
+#liaison sol(milieu 2)/sol(milieu 3)
+4 5 2
+5 4 2
+
+#liaison sol(milieu 3)/sol(droite 1)
+5 6 2
+6 5 2
+
+#liaison sol(droite 1)/sol(droite 2)
+6 7 2
+7 6 2
+
+#liaison sol(droite 1)/sol(droite 2)
+7 8 2
+8 7 2
+
+#liaison sol(droite 1)/sol(droite 2)
+8 9 2
+9 8 2
+
+

@@ -1,0 +1,49 @@
+#MD2 Anim p_boxman
+
+
+#standby 1
+#prerun 2
+#run 3
+#jump 4
+#fall 5
+#postjump 6
+#attack1 7
+#throw 8
+#damage 9
+#preblock 10
+#block 11
+#postblock 12
+#predeath 13
+#death 14
+#postdeath 15
+#standup 16
+#attack2 17
+#rotate 18
+#postrun 19
+#victory 20
+
+1 1 30
+2 40 53
+3 54 77
+4 80 110
+5 110 110
+6 116 135
+7 140 175
+8 180 210
+9 215 230
+10 230 240
+11 240 260
+12 260 270
+13 300 315
+14 315 340
+15 340 360
+16 360 415
+17 415 475
+18 475 490
+19 495 510
+20 515 570
+
+
+#special
+#crouch
+#walk

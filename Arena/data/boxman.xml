@@ -1,0 +1,9 @@
+<bot>
+  <name>boxman</name>
+  <brain>libAIFearful.so</brain>
+  <body velocity="1.0" resistance="1.0">
+    <model x="0.0" y="0" z="0.0" xrot="0" yrot="-90" zrot="90" scale="0.017">p_boxman.md2</model>
+    <texture>tex_boxman.ppm</texture>
+    <anime>p_boxman_anim.txt</anime>
+  </body>
+</bot>

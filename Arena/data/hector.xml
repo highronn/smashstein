@@ -1,0 +1,9 @@
+<bot>
+  <name>hector</name>
+  <brain>libAINormal.so</brain>
+  <body velocity="1.0" resistance="1.0">
+    <model x="0.0" y="0" z="0.0" xrot="0" yrot="0" zrot="90" scale="0.1">p_hector.md2</model>
+    <texture>p_hector.ppm</texture>
+    <anime>p_hector_anim.txt</anime>
+  </body>
+</bot>

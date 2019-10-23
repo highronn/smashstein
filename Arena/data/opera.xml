@@ -1,0 +1,9 @@
+<bot>
+  <name>opera</name>
+  <brain>libAINormal.so</brain>
+  <body velocity="1.0" resistance="1.0">
+    <model x="0.0" y="0.5" z="0.0" xrot="0" yrot="-25" zrot="90" scale="0.017">p_opera.md2</model>
+    <texture>p_opera.ppm</texture>
+    <anime>p_opera_anim.txt</anime>
+  </body>
+</bot>

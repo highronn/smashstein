@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<map>
+	 <bgmusic path="sound/music/fight1.mp3"> </bgmusic>
+	 <background path="obj/rome/textures/fond.ppm" width="35" height="35" x="-17.5" y="-13" z="-10.0"> </background>
+     <mesh path="obj/rome/sol.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0" xBox="0" yBox="-0.25" widthBox="13.1" heightBox="0.1" type="1">MAP_ROME_ALLEGEE</mesh>
+     <mesh path="obj/rome/plateforme1.obj" x="0.55" y="-0.2" z="-0.25" xrot="0.0" yrot="0.0" zrot="0" xBox="-2.3" yBox="1.15" widthBox="0.9" heightBox="0.2" type="2">PLATEFORME1</mesh>
+     <mesh path="obj/rome/plateforme2.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0" xBox="3.9" yBox="1.15" widthBox="0.9" heightBox="0.2" type="2">PLATEFORME2</mesh>
+     <mesh path="obj/rome/plateformegdhaut.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0" xBox="1.0" yBox="1.80" widthBox="2.3" heightBox="0.2" type="2">PLATEFORMEGDHAUT</mesh>
+     <mesh path="obj/rome/plateformegdbas.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0" xBox="1.0" yBox="3.43" widthBox="2.3" heightBox="0.2" type="2">PLATEFORMEGDBAS</mesh>
+
+     <element path="obj/rome/arbre1.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre2.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre3.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre4.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre5.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre6.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre7.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre8.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre9.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE1</element>
+     <element path="obj/rome/arbre10.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE10</element>
+     <element path="obj/rome/arbre11.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE11</element>
+     <element path="obj/rome/arbre12.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">ARBRE12</element>
+     <element path="obj/rome/autel.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">AUTEL</element>
+     <element path="obj/rome/base1.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">BASE1</element>
+     <element path="obj/rome/base2.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">BASE2</element>
+     <element path="obj/rome/base3.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">BASE3</element>
+     <element path="obj/rome/base4.obj" x="0.55" y="-0.2" z="-0.25" xrot="0" yrot="0" zrot="0">BASE4</element>
+     <element path="obj/rome/base5.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE5</element>
+     <element path="obj/rome/base6.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE6</element>
+     <element path="obj/rome/base7.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE7</element>
+     <element path="obj/rome/base8.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE8</element>
+     <element path="obj/rome/base9.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE9</element>
+     <element path="obj/rome/base10.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE10</element>
+     <element path="obj/rome/base11.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE11</element>
+     <element path="obj/rome/base12.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BASE12</element>
+     <element path="obj/rome/bloc.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BLOC</element>
+     <element path="obj/rome/blocCasse.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">BLOCCASSE</element>
+     <element path="obj/rome/colonneExt1.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEEXT1</element>
+     <element path="obj/rome/colonneExt2.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEEXT2</element>
+     <element path="obj/rome/colonneExt3.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEEXT3</element>
+     <element path="obj/rome/colonneExt4.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEEXT4</element>
+     <element path="obj/rome/colonneInt1.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEINT1</element>
+     <element path="obj/rome/colonneInt2.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEINT2</element>
+     <element path="obj/rome/colonneInt3.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">COLONNEINT3</element>
+     <element path="obj/rome/dessusAutel.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">DESSUSAUTEL</element>
+     <element path="obj/rome/epee.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">EPEE</element>
+     <element path="obj/rome/pilierCasse1.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE1</element>
+     <element path="obj/rome/pilierCasse2.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE2</element>
+     <element path="obj/rome/pilierCasse3.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE3</element>
+     <element path="obj/rome/pilierCasse4.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE4</element>
+     <element path="obj/rome/pilierCasse5.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE5</element>
+     <element path="obj/rome/pilierCasse6.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE6</element>
+     <element path="obj/rome/pilierCasse7.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE7</element>
+     <element path="obj/rome/pilierCasse8.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERCASSE8</element>
+     <element path="obj/rome/piliersol1.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERSOL1</element>
+     <element path="obj/rome/piliersol2.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERSOL2</element>
+     <element path="obj/rome/piliersol3.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERSOL3</element>
+     <element path="obj/rome/piliersol4.obj" x="0.55" y="-0.2" z="-0.250" xrot="0" yrot="0" zrot="0">PILIERSOL4</element>
+     <element path="obj/rome/piliersol5.obj" x="0.55" y="-0.2" z="0" xrot="0" yrot="0" zrot="0">PILIERSOL5</element>
+     <element path="obj/rome/piliersol6.obj" x="0.55" y="-0.2" z="0" xrot="0" yrot="0" zrot="0">PILIERSOL6</element>
+     <element path="obj/rome/solAutel.obj" x="0.55" y="-0.2" z="0" xrot="0" yrot="0" zrot="0">SOLAUTEL</element>
+</map>

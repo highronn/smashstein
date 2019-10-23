@@ -1,0 +1,51 @@
+#MD2 Anim p_bandicoot
+#Total : 325 frames
+#Decoupe moyenne : 5 frames per key
+#Estimation pour md2 : 70 * 2
+
+#standby 1
+#prerun 2
+#run 3
+#jump 4
+#fall 5
+#postjump 6
+#attack1 7
+#throw 8
+#damage 9
+#preblock 10
+#block 11
+#postblock 12
+#predeath 13
+#death 14
+#postdeath 15 //15 325 365
+#standup 16
+#attack2 17
+#rotate 18
+#postrun 19
+#victory 20 // Indication : faire une pause à : 525 ; 530 ; 535 ; boucler de 540 à 550
+
+1 1 40
+2 40 50
+3 50 70
+4 80 105
+5 105 120
+6 120 160
+7 160 200
+8 200 230
+9 230 260
+10 260 270
+11 270 280
+12 280 290
+13 290 310
+14 310 325
+15 338 365
+16 365 435
+17 435 465
+18 465 479
+19 485 520
+20 520 550
+
+
+#special
+#crouch
+#walk

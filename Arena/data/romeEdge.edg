@@ -1,0 +1,106 @@
+# Syntax for .edg files
+#
+# <nodeStartID> <nodeEndID> <edgeValue>
+
+#0 gauche 1
+#1 gauche 2
+#2 gauche 3
+#3 milieu 1
+#4 milieu 2
+#5 milieu 3
+#6 droite 1
+#7 droite 2
+#8 plateforme gauche
+#9 plateforme droite
+
+#10 plateforme centre bas
+#11 plateforme centre haut
+#12 liaison Correction plateforme droite / centre bas
+
+#13 zone de resurrection
+
+# liaison plate-forme(bas)/sol
+#3 0 18
+
+#liaision sol(gauche 1)/sol(gauche 2)
+0 1 1
+1 0 1
+
+#liaison sol(gauche 2)/sol(gauche 3)
+1 2 1
+2 1 1
+
+#liaison sol(gauche 3)/sol(milieu 1)
+2 3 1
+3 2 1
+
+#liaison sol(milieu 1)/sol(milieu 2)
+3 4 1
+4 3 1
+
+#liaison sol(milieu 2)/sol(milieu 3)
+4 5 1
+5 4 1
+
+#liaison sol(milieu 3)/sol(droite 1)
+5 6 1
+6 5 1
+
+#liaison sol(droite 1)/sol(droite 2)
+6 7 1
+7 6 1
+
+#liaison sol-air(gauche 2)/sol(plateforme gauche)
+1 8 3
+8 1 3
+
+#liaison sol-air(gauche 3)/sol(plateforme gauche)
+2 8 3
+8 2 3
+
+#liaison sol-air(milieu 1)/sol(plateforme gauche)
+3 8 3
+8 3 3
+
+#liaison sol-air(plateforme centre bas)/sol(plateforme gauche)
+10 8 2
+8 10 2
+
+#liaison air2-air(plateforme centre haut)/sol(plateforme centre bas)
+11 10 2
+10 11 2
+
+#liaison air2-air(plateforme centre haut)/sol(plateforme gauche)
+11 8 2
+
+#liaison air2-air(plateforme centre haut)/sol(plateforme droite)
+11 9 2
+
+#liaison sol-air(plateforme centre bas)/sol(plateforme gauche)
+#10 9 1
+#9 10 1
+
+#liaison sol-air(droite 2)/sol(plateforme droite)
+7 9 2
+9 7 2
+
+#liaison sol-air(droite 1)/sol(plateforme droite)
+6 9 2
+9 6 2
+
+#liaison sol-air(milieu 3)/sol(plateforme droite)
+5 9 2
+9 5 2
+
+#laison 9 a correction 
+9 12 1
+12 9 1
+
+#laison 9 10 a correction à centre bas
+12 10 1
+12 10 1
+
+#liaison de résurection 13
+#13 0 2
+#13 11 2
+#13 2 2
